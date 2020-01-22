@@ -1,0 +1,91 @@
+body {
+    font-family: 'Montserrat';
+}
+
+.navbar {
+    background-color: #171717;
+    border-bottom: 1px solid #333;
+}
+
+.nav-item {
+    margin-left: 24px;
+    font-weight: 200;
+}
+
+.nav-item.active a {
+    color: #F9B234 !important;
+    font-weight: 600;
+}
+
+.nav-link span {
+    color: #F9B234;
+    font-weight: 600;
+}
+
+/* carousel */
+
+.carousel {
+    height: 450px;
+    background-color: #171717;
+    color: white;
+}
+
+.carousel h1 {
+    font-family: 'Lora';
+}
+
+.carousel p {
+    font-weight: 200;
+}
+
+.spesialeid h3, .designer h3 {
+    font-family: 'Lora';
+    color: #1B2690;
+    font-weight: bold;
+}
+
+.spesialeid p, .designer p, footer p {
+    font-weight: 200;
+    color: #B7B7B7;
+}
+
+.figure h5 {
+    color: #171717;
+}
+
+.figure-img {
+    position: relative;
+}
+
+.figure-img a {
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 8px;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: opacitu 0.3s;
+}
+
+.figure-img:hover a {
+    opacity: 1;
+}
+
+/* breadcrumb */
+.breadcrumb {
+    margin-top: 100px;
+}
+
+/* product */
+.product-thumbnail-container {
+    background-color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    width: 360px;
+    padding: 8px;
+    ma
+}
+
+.product-thumbnail-container a:hover {
+    text-decoration: none;
+}

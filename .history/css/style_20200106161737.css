@@ -1,0 +1,61 @@
+body {
+    font-family: 'Montserrat';
+}
+
+.navbar {
+    background-color: #171717;
+}
+
+.nav-item {
+    margin-left: 24px;
+    font-weight: 200;
+}
+
+.nav-item.active a {
+    color: #F9B234 !important;
+    font-weight: 600;
+}
+
+.nav-link span {
+    color: #F9B234;
+    font-weight: 600;
+}
+
+/* carousel */
+
+.carousel {
+    height: 450px;
+    background-color: #171717;
+    color: white;
+}
+
+.carousel h1 {
+    font-family: 'Lora';
+}
+
+.carousel p {
+    font-weight: 200;
+}
+
+.spesialeid h3 {
+    font-family: 'Lora';
+    color: #1B2690;
+    font-weight: bold;
+}
+
+.spesialeid p {
+    font-weight: 200;
+    color: #B7B7B7;
+}
+
+.figure h5 {
+    color: #171717;
+}
+
+.figure-img {
+    po
+}
+.figure-img a {
+    position: absolute;
+
+}
